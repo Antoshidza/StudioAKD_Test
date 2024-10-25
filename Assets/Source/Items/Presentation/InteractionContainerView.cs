@@ -23,6 +23,6 @@ namespace Source.Items
         private void SetLabel(int itemCount) =>
             _label.text = itemCount >= _neededWeaponCount
                 ? "Well done!"
-                : $"John Riccitiello tries to make some shit again.\nStop him. Pick weapon!\n{itemCount} / {_neededWeaponCount}";
+                : $"John Riccitiello is about to make some shit again.\nStop him. Pick weapon!\n{itemCount} / {_neededWeaponCount}";
     }
 }
